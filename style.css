@@ -1,0 +1,78 @@
+html,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(87, 161, 84);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.filters {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button {
+    text-align: center;
+    font-size: 200px;
+    color: rgb(27, 16, 16);
+}
+.card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+}
+
+ul {
+  display: block;
+  width: 480px;
+  height: 650px;
+  margin: 15px;
+  padding: 20px 40px;
+  list-style: none;
+  background: rgb(255, 255, 255);
+  
+}
+
+li {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  background-size: contain;
+  height: 300px;
+}
